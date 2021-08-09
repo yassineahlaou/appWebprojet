@@ -1,0 +1,53 @@
+<section style="background-color: #ADCCE9" class="u-align-center u-clearfix u-section-1">
+    <h2 >Faite votre reservation</h2>
+    
+    <div style="text-align: center">
+      
+  <form method="post" action="Reserv.php" >
+    
+    <label for="email"  >E-mail:</label>
+    <input type="email" placeholder=""  name="email" >
+    <br><label for="fullname" >Nom et Prénom :</label>
+    <input type="text" placeholder=""  name="name" >
+    <br><label for="ProduitChoisi" >ID Produit Choisi :</label>
+          
+           
+    <select id="select-8e9d" name="select" >
+              <option value="Item 0">-</option>
+              <option value="Item 1">#1</option>
+              <option value="Item 2">#2</option>
+              <option value="Item 3">#3</option>
+              <option value="Item 4">#4</option>
+              <option value="Item 5">#5</option>
+              <option value="Item 6">#6</option>
+              <option value="Item 7">#7</option>
+              <option value="Item 8">#8</option>
+              <option value="Item 9">#9</option>
+            </select>
+            <br><label for="date-4444" >Date de départ</label>
+            <input type="date" placeholder="MM/DD/YYYY" id="date-4444" name="dated">
+            <br><label for="time-4444" >Heure du départ</label>
+            <input type="time" placeholder="HH:MM" id="time-4444" name="heured">
+            <br><label for="date-4441" >Date d'arrivée'</label>
+            <input type="date" placeholder="MM/DD/YYYY" id="date-4441" name="datea">
+            <br><label for="time-4441" >Heure d'arrivée</label>
+            <input type="time" placeholder="HH:MM" id="time-4441" name="heurea">
+            <br><label for="Phone" >N° Téléphone</label>
+            <input type="tel" pattern="\+?\d{0,2}[\s\(\-]?([0-9]{3})[\s\)\-]?([\s\-]?)([0-9]{3})[\s\-]?([0-9]{2})[\s\-]?([0-9]{2})" placeholder="Enter your phone (e.g. +212691009722)"  name="phone" >
+            <br><label for="date-4447" >Date de naissance</label>
+            <input type="date" placeholder="MM/DD/YYYY" id="date-4447" name="daten">
+            <br><label for="carte-f2a8" >N° Carte Nationale</label>
+            <textarea placeholder="Entrez le numero de votre carte nationale"   name="carte" ></textarea>
+            <br><label for="adresse-f2a8" >Adresse</label>
+            <textarea placeholder="Entrez votre adresse"   name="adresse" ></textarea>
+            <div class="montant">
+              <p> Montant à payer   <input class="in"  type="number" id="n1" > DH <input type="button" onclick="Mont()" value="Actualiser">  </p>
+            </div>
+        
+        
+    
+            
+    <input type="submit" name="subi" value="Submit">
+    </form>
+  </div>
+  </section>
